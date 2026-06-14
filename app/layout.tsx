@@ -8,8 +8,7 @@ const display = Russo_One({ weight: "400", subsets: ["latin", "cyrillic"], varia
 const sans = Exo_2({ subsets: ["latin", "cyrillic"], variable: "--font-sans", display: "swap" });
 const mono = JetBrains_Mono({ subsets: ["latin", "cyrillic"], variable: "--font-mono", display: "swap" });
 
-// TODO: заменить на реальный домен
-const SITE_URL = "https://example.com";
+const SITE_URL = "https://box-electric.ru";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
