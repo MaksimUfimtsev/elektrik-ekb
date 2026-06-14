@@ -64,7 +64,7 @@ export default function Gallery() {
 
       <div className="mt-8 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4" data-reveal="">
         {visible.map(({ g, i }) => (
-          <button key={g.f} className="gtile group aspect-[4/3]" aria-label={`Открыть: ${g.t}`} onClick={() => open(i)}>
+          <button key={g.f} className="gtile group aspect-square" aria-label={`Открыть: ${g.t}`} onClick={() => open(i)}>
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               src={`/assets/photos/gallery/${g.f}`}
