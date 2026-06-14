@@ -62,16 +62,16 @@ export default function Gallery() {
         })}
       </div>
 
-      <div className="mt-8 columns-2 md:columns-3 lg:columns-4 gap-4 [&>*]:mb-4" data-reveal="">
+      <div className="mt-8 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4" data-reveal="">
         {visible.map(({ g, i }) => (
-          <button key={g.f} className="gtile group" aria-label={`Открыть: ${g.t}`} onClick={() => open(i)}>
+          <button key={g.f} className="gtile group aspect-[4/3]" aria-label={`Открыть: ${g.t}`} onClick={() => open(i)}>
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               src={`/assets/photos/gallery/${g.f}`}
               alt={`${g.t} — фото работы электромонтажа в Екатеринбурге`}
               loading="lazy"
               decoding="async"
-              className="w-full block"
+              className="w-full h-full object-cover"
             />
             <span className="cap absolute inset-x-0 bottom-0 z-10 bg-gradient-to-t from-void to-transparent p-3 text-left text-magenta text-sm font-mono">
               {g.t}
