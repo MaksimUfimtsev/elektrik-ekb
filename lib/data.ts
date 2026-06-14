@@ -47,14 +47,20 @@ export const GAL: GalItem[] = [
   { f: "shchit-4.jpg", cat: "shchit", t: "Сборка электрощита" },
   { f: "rozetki-4.jpg", cat: "rozetki", t: "Розетки и выключатели" },
   { f: "provodka-4.jpg", cat: "provodka", t: "Прокладка проводки" },
+  { f: "svet-4.jpg", cat: "svet", t: "Монтаж освещения" },
   { f: "shchit-5.jpg", cat: "shchit", t: "Сборка электрощита" },
   { f: "rozetki-5.jpg", cat: "rozetki", t: "Розетки и выключатели" },
   { f: "provodka-5.jpg", cat: "provodka", t: "Прокладка проводки" },
+  { f: "svet-5.jpg", cat: "svet", t: "Монтаж освещения" },
   { f: "shchit-6.jpg", cat: "shchit", t: "Сборка электрощита" },
   { f: "rozetki-6.jpg", cat: "rozetki", t: "Розетки и выключатели" },
   { f: "provodka-6.jpg", cat: "provodka", t: "Прокладка проводки" },
+  { f: "svet-6.jpg", cat: "svet", t: "Монтаж освещения" },
   { f: "shchit-7.jpg", cat: "shchit", t: "Сборка электрощита" },
+  { f: "provodka-7.jpg", cat: "provodka", t: "Прокладка проводки" },
   { f: "shchit-8.jpg", cat: "shchit", t: "Сборка электрощита" },
+  { f: "provodka-8.jpg", cat: "provodka", t: "Прокладка проводки" },
+  { f: "shchit-9.jpg", cat: "shchit", t: "Сборка электрощита" },
 ];
 
 export const GAL_FILTERS: { cat: string; label: string }[] = [
